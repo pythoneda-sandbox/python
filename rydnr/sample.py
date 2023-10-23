@@ -1,7 +1,7 @@
 """
-rydnr/__init__.py
+rydnr/sample.py
 
-This file ensures rydnr is a namespace.
+This file declares the Sample class.
 
 Copyright (C) 2023-today rydnr's rydnr/sandbox
 
@@ -18,6 +18,5 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-__path__ = __import__('pkgutil').extend_path(__path__, __name__)
-
-from .sample import Sample
+class Sample:
+    pass

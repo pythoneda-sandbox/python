@@ -1,1 +1,3 @@
-# rydnr's sandbox
+# pythoneda-sandbox/python
+
+A Python project used to test PythonEDA.

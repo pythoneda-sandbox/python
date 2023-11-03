@@ -1,9 +1,9 @@
 """
-rydnr/__init__.py
+pythoneda/sandbox/__init__.py
 
-This file ensures rydnr is a namespace.
+This file ensures pythoneda.sandbox is a namespace.
 
-Copyright (C) 2023-today rydnr's rydnr/sandbox
+Copyright (C) 2023-today rydnr's pythoneda-sandbox/python
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,6 +18,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-__path__ = __import__('pkgutil').extend_path(__path__, __name__)
+__path__ = __import__("pkgutil").extend_path(__path__, __name__)
 
 from .sample import Sample
